@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sonasegasuisughi.css">
+
+    <title>sonasegasuisughi</title>
+</head>
+
+<body>
+    <header>
+        <h1>So Na Sega Sui Sughi</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="button">
+                    <div>
+                        <img src="involitni.jpg" class="img" >
+                    </div> 
+                    <input class="butc" type="button" value="involtini primavera 2.00$" onclick="prezzo('involtini primavera')">
+                    
+                    <div>
+                        <img src="ravioli.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Ravioli al Vapore 4.00$" onclick="prezzo('Ravioli al Vapore')">
+                    
+                    <div>
+                        <img src="risocant.jpg" class="img" >
+                    </div>    
+                    <input class="butc" type="button" value="riso cantonese 5.00$" onclick="prezzo('riso cantonese')">
+                    
+                    <div>
+                        <img src="udonverdure.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="udon con verdure 5.00$" onclick="prezzo('udon con verdure')">
+                    
+                </div>
+
+                <div class="button">
+                    <div>
+                        <img src="nigirimix.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Nigiri Misto 8.00$" onclick="prezzo('Nigiri Misto')">
+                   
+                    <div>
+                        <img src="pollocurry.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Pollo con Curry 7.00$" onclick="prezzo('Pollo con Curry')">
+                    
+                    <div>
+                        <img src="ebiten.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Ebiten Temako 9.00$" onclick="prezzo('Ebiten Temako')">
+                    
+                </div>
+
+
+                <div class="button">
+                    <div>
+                        <img src="spaghettiriso.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Spaghetti di riso 5.00$" onclick="prezzo('Spaghetti di riso')">
+                
+                    <div>
+                        <img src="pinta.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Pinta 5.00$" onclick="prezzo('Pinta')">
+                    
+                    <div>
+                        <img src="acqua.jpg" class="img" >
+                    </div>
+                    <input class="butc" type="button" value="Acqua 3.00$" onclick="prezzo('Acqua')">
+                    
+                </div>
+
+
+
+                <div class="pay">
+                    <input type="button" id="tot" value="tot" onclick="tot()">
+                    <label for="lista">lista prodotti:</label>
+                    <div  type="textarea" id="lista"></div>
+                    <input type="button" id="reset" value="elimina" onclick="reset()">
+                    <input type="area" name="display" id="display" readonly>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="sonasegasuisughi.js"></script>
+</body>
+
+</html>
